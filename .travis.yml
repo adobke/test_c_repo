@@ -5,6 +5,6 @@ compiler:
     - gcc
 
 env:
-    - MAKE_PASS=true
-    - MAKE_PASS=false
+    - MAKE_PASS=1
+    - MAKE_PASS=0
 
