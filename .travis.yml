@@ -1,4 +1,10 @@
 language: c
+
 compiler:
     - clang
     - gcc
+
+env:
+    - MAKE_PASS=true
+    - MAKE_PASS=false
+
